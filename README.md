@@ -321,9 +321,6 @@ Interests: Generative AI, Multi-Agent Systems, RAG, NLP, Machine Learning, and B
 - **GitHub:** [Dinesh-05-G](https://github.com/Dinesh-05-G)
 - **Repository:** [Multi-agent-interview-system](https://github.com/Dinesh-05-G/Multi-agent-interview-system)
 
-## 📄 License
-
-A license has not been specified here. Add a `LICENSE` file if you intend to distribute the project under an open-source license.
 
 ---
 
