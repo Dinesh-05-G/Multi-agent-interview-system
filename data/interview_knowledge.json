@@ -1,0 +1,297 @@
+[
+  {
+    "topic": "Python",
+    "difficulty": "Easy",
+    "concept": "Python Data Types",
+    "knowledge": "Python provides built-in data types such as int, float, str, bool, list, tuple, set, and dictionary. Different data types are used to represent different kinds of values.",
+    "interview_focus": [
+      "Basic data types",
+      "Mutable vs immutable",
+      "Type conversion",
+      "Use cases"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Easy",
+    "concept": "Lists",
+    "knowledge": "A list is an ordered and mutable collection in Python. Lists can contain multiple values and support indexing, slicing, insertion, deletion, and iteration.",
+    "interview_focus": [
+      "List operations",
+      "Indexing",
+      "Slicing",
+      "Mutability",
+      "List methods"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Easy",
+    "concept": "Tuples",
+    "knowledge": "A tuple is an ordered immutable collection. Tuples support indexing and iteration but their elements cannot normally be changed after creation.",
+    "interview_focus": [
+      "Tuple creation",
+      "Immutability",
+      "Tuple vs list",
+      "Use cases"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Easy",
+    "concept": "Dictionaries",
+    "knowledge": "A dictionary stores data as key-value pairs. Dictionaries are mutable and provide efficient lookup by key.",
+    "interview_focus": [
+      "Key-value pairs",
+      "Dictionary methods",
+      "Lookup",
+      "Iteration",
+      "Use cases"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Easy",
+    "concept": "Sets",
+    "knowledge": "A set is an unordered collection of unique elements. Sets support operations such as union, intersection, difference, and membership testing.",
+    "interview_focus": [
+      "Unique elements",
+      "Set operations",
+      "Membership testing",
+      "Use cases"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Functions",
+    "knowledge": "Python functions are reusable blocks of code. Functions can accept positional arguments, keyword arguments, default arguments, and variable-length arguments.",
+    "interview_focus": [
+      "Function definition",
+      "Arguments",
+      "Return values",
+      "*args and **kwargs",
+      "Scope"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Lambda Functions",
+    "knowledge": "Lambda functions are anonymous functions written using the lambda keyword. They are commonly used for short operations with functions such as map, filter, and sorted.",
+    "interview_focus": [
+      "Lambda syntax",
+      "Anonymous functions",
+      "map",
+      "filter",
+      "sorted"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Functions and Decorators",
+    "knowledge": "Decorators are functions that modify or extend the behavior of another function without directly changing its source code. They are commonly implemented using nested functions and functools.wraps.",
+    "interview_focus": [
+      "Higher-order functions",
+      "Nested functions",
+      "Decorators",
+      "functools.wraps",
+      "Practical use cases"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Iterators and Generators",
+    "knowledge": "An iterator produces values one at a time using the iterator protocol. Generators provide a convenient way to create iterators using yield. Generators evaluate lazily and can reduce memory usage.",
+    "interview_focus": [
+      "iter()",
+      "next()",
+      "Iterator protocol",
+      "yield",
+      "Lazy evaluation"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "List Comprehension",
+    "knowledge": "List comprehensions provide a concise way to create lists by applying an expression to elements of an iterable, optionally using a condition.",
+    "interview_focus": [
+      "Syntax",
+      "Conditions",
+      "Nested comprehensions",
+      "Readability",
+      "Performance"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Exception Handling",
+    "knowledge": "Python handles runtime errors using try, except, else, and finally blocks. Custom exceptions can be created by defining classes derived from Exception.",
+    "interview_focus": [
+      "try and except",
+      "finally",
+      "else",
+      "Custom exceptions",
+      "Error handling"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "File Handling",
+    "knowledge": "Python provides file handling through the open function. Files can be opened in modes such as read, write, and append. The with statement is commonly used to manage file resources safely.",
+    "interview_focus": [
+      "open()",
+      "File modes",
+      "Reading",
+      "Writing",
+      "with statement"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Object Oriented Programming",
+    "knowledge": "Python supports object-oriented programming using classes and objects. Classes can contain attributes and methods and support concepts such as inheritance, encapsulation, and polymorphism.",
+    "interview_focus": [
+      "Classes",
+      "Objects",
+      "Methods",
+      "Inheritance",
+      "Polymorphism"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Inheritance",
+    "knowledge": "Inheritance allows a class to derive behavior and attributes from another class. Python supports single, multiple, multilevel, and hierarchical inheritance.",
+    "interview_focus": [
+      "Parent class",
+      "Child class",
+      "super()",
+      "Method overriding",
+      "Multiple inheritance"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Polymorphism",
+    "knowledge": "Polymorphism allows the same interface or operation to work with different object types. Python commonly achieves this through duck typing and method overriding.",
+    "interview_focus": [
+      "Duck typing",
+      "Method overriding",
+      "Common interfaces",
+      "Practical examples"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Modules and Packages",
+    "knowledge": "Python modules organize reusable code into files, while packages organize multiple modules into a structured directory. Python supports importing functions, classes, and modules.",
+    "interview_focus": [
+      "import",
+      "from import",
+      "Packages",
+      "__init__.py",
+      "Code organization"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Medium",
+    "concept": "Context Managers",
+    "knowledge": "Context managers manage resources using the with statement. They commonly implement __enter__ and __exit__ methods and can also be created using contextlib.",
+    "interview_focus": [
+      "with statement",
+      "__enter__",
+      "__exit__",
+      "Resource management",
+      "contextlib"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Hard",
+    "concept": "Memory Management",
+    "knowledge": "Python manages memory automatically using mechanisms including reference counting and garbage collection. Objects are allocated in a private heap managed by the Python memory manager.",
+    "interview_focus": [
+      "Reference counting",
+      "Garbage collection",
+      "Memory allocation",
+      "Object lifecycle",
+      "Memory leaks"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Hard",
+    "concept": "Closures",
+    "knowledge": "A closure occurs when an inner function remembers and accesses variables from its enclosing scope even after the outer function has completed execution.",
+    "interview_focus": [
+      "Nested functions",
+      "Enclosing scope",
+      "Free variables",
+      "Practical use cases",
+      "Closures vs decorators"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Hard",
+    "concept": "Multithreading",
+    "knowledge": "Python supports multithreading through the threading module. Threads can be useful for I/O-bound tasks, while CPU-bound execution is affected by the Global Interpreter Lock in standard CPython.",
+    "interview_focus": [
+      "threading",
+      "GIL",
+      "I/O-bound tasks",
+      "CPU-bound tasks",
+      "Synchronization"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Hard",
+    "concept": "Async Programming",
+    "knowledge": "Python asynchronous programming uses async and await with an event loop to handle cooperative concurrent tasks, especially I/O-bound operations.",
+    "interview_focus": [
+      "async",
+      "await",
+      "Event loop",
+      "Coroutines",
+      "Asynchronous I/O"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Hard",
+    "concept": "Caching and Memoization",
+    "knowledge": "Caching stores previously computed results so repeated operations can avoid unnecessary computation. Memoization commonly uses function arguments as cache keys and stores corresponding results.",
+    "interview_focus": [
+      "Caching",
+      "Memoization",
+      "Cache keys",
+      "LRU cache",
+      "Performance"
+    ]
+  },
+  {
+    "topic": "Python",
+    "difficulty": "Hard",
+    "concept": "Advanced Generators",
+    "knowledge": "Generators can use yield to produce values lazily. Advanced generators can receive values through send(), handle exceptions with throw(), and terminate with return.",
+    "interview_focus": [
+      "yield",
+      "send()",
+      "throw()",
+      "Generator state",
+      "Lazy execution"
+    ]
+  }
+]
